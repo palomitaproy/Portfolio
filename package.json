@@ -1,0 +1,35 @@
+
+{
+  "name": "cagetheme",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": "8.7.0"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "gulp": "gulp"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "bootstrap": "^4.0.0-beta.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "hbs": "~4.0.1",
+    "jquery-slim": "^3.0.0",
+    "morgan": "~1.9.0",
+    "popper.js": "^1.12.3",
+    "pug": "2.0.0-beta11",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "concurrently": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sass": "^3.1.0",
+    "nodemon": "^1.12.1"
+  }
+}
