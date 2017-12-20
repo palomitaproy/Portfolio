@@ -36,7 +36,7 @@ a:hover {
   height: 100%; }
 
 .about-titel {
-  background-color: #f9e2f6;
+  background-color: #f7484e;
   padding-top: 20%;
   text-align: center; }
 
@@ -54,17 +54,16 @@ span {
   position: absolute;
   z-index: 10; }
 
-.rombo {
-  width: 100px;
-  height: 100px;
-  border: 3px solid #555;
-  background: #428bca;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg); }
-
+/*.rombo
+  width: 100px
+  height: 100px
+  border: 3px solid #555
+  background: #428bca
+  -webkit-transform: rotate(45deg)
+  -moz-transform: rotate(45deg)
+  -ms-transform: rotate(45deg)
+  -o-transform: rotate(45deg)
+  transform: rotate(45deg)*/
 .work-title {
   padding-top: 20%;
   text-align: center; }
