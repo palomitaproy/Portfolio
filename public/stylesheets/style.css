@@ -1,48 +1,47 @@
 html, body {
   position: relative;
-  height: 100%;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
-
-.container-portfolio {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%; }
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0; }
 
 header {
-  text-align: center;
-  background-color: #292929;
-  height: 100%; }
+  background-color: #0D0D0D; }
 
 .maxi-brand {
-  color: #f04a4d;
+  color: #D6C1BC;
   padding-top: 50px; }
 
 .hero {
   padding-top: 150px; }
 
 .maxi-heading {
-  color: white; }
+  color: #EFEEEA; }
 
 .navi {
   padding-top: 200px;
   padding-bottom: 50px;
-  color: #f7484e; }
+  color: #D7D8D3; }
 
 a:hover {
-  color: white; }
+  color: #EFEEEA; }
 
 .about {
-  height: 100%; }
+  height: 100%;
+  display: flex; }
 
 .about-titel {
-  background-color: #f7484e;
-  padding-top: 20%;
-  text-align: center; }
+  background-color: #D7D8D3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+.contact-titel {
+  background-color: #D6C1BC;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
 
 .about-text {
   padding: 20%;
-  text-align: left;
   font-size: 1.2em;
   line-height: 1.5em; }
 
@@ -64,20 +63,27 @@ span {
   -ms-transform: rotate(45deg)
   -o-transform: rotate(45deg)
   transform: rotate(45deg)*/
+.work {
+  max-height: 600px;
+  display: flex; }
+
 .work-title {
-  padding-top: 20%;
-  text-align: center; }
+  padding-top: 10%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
 
 .liste {
   padding-bottom: 100px;
   color: black !important; }
 
 a:hover {
-  color: #f7484e !important; }
+  color: #D7D8D3 !important; }
 
 .work-liste {
   overflow-y: scroll;
-  background-color: #292929; }
+  background-color: #0D0D0D; }
 
 .card-box {
   margin: 5%; }
@@ -88,10 +94,10 @@ a:hover {
   height: 100%; }
 
 .card-body {
-  background-color: #292929;
-  color: white; }
+  background-color: #0D0D0D;
+  color: #EFEEEA; }
 
 footer {
-  background-color: #292929; }
+  background-color: #0D0D0D; }
 
 /*# sourceMappingURL=style.css.map */
