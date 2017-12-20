@@ -1,5 +1,11 @@
 extends layout
 
 block content
+  include partials/header
+  include partials/about 
+  include partials/work
+  include partials/contact   
+  include partials/footer
+  
   h1= title
   p Welcome to #{title}

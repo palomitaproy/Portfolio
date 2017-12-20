@@ -1,8 +1,9 @@
+
 const gulp = require('gulp')
-const browserSync = require('browserSync').create()
+const browserSync = require('browser-sync').create()
 const sass = require('gulp-sass')
 const autoprefixer = require('gulp-autoprefixer')
-const nodemon = require('gulp-autoprefixer')
+const nodemon = require('gulp-nodemon')
 
 const PORT = 3000
 
