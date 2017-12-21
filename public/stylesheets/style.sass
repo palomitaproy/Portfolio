@@ -7,6 +7,7 @@ html,body
   position: relative
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
   margin: 0
+  height: 100%
 header
   background-color: $bg-secondary
 
@@ -72,26 +73,35 @@ span
 
 .work-title
   padding-top: 10%
-  text-align: center
+  text-align: left
   display: flex
   justify-content: center
   flex-direction: column
 .liste
   padding-bottom: 100px
   color: black !important
+   display: inline
+   text-align: center
+   margin: 0 10px 0 0
 a:hover
   color: $bg-navi !important
 .work-liste
   overflow-y:  scroll
   background-color: $bg-secondary
+
+.work-liste::-webkit-scrollbar
+  display: none
 .card-box
   margin: 5%
+  height: 500px
 .card-work
   margin: 2%
   width: 100%
   height: 100%
 .card-body
+  padding: 7.25rem
   background-color: $bg-secondary
   color: $text-color
+
 footer
   background-color: $bg-secondary

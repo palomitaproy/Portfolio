@@ -19,7 +19,7 @@ gulp.task('serve', ['nodemon', 'sass'], () => {
         ],
       },
       port: 8000,
-      open: false,
+    //  open: false, 
       ui: {
         port: 8001
       },

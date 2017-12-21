@@ -1,7 +1,8 @@
 html, body {
   position: relative;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  margin: 0; }
+  margin: 0;
+  height: 100%; }
 
 header {
   background-color: #0D0D0D; }
@@ -69,14 +70,17 @@ span {
 
 .work-title {
   padding-top: 10%;
-  text-align: center;
+  text-align: left;
   display: flex;
   justify-content: center;
   flex-direction: column; }
 
 .liste {
   padding-bottom: 100px;
-  color: black !important; }
+  color: black !important;
+    color-display: inline;
+    color-text-align: center;
+    color-margin: 0 10px 0 0; }
 
 a:hover {
   color: #D7D8D3 !important; }
@@ -85,8 +89,12 @@ a:hover {
   overflow-y: scroll;
   background-color: #0D0D0D; }
 
+.work-liste::-webkit-scrollbar {
+  display: none; }
+
 .card-box {
-  margin: 5%; }
+  margin: 5%;
+  height: 500px; }
 
 .card-work {
   margin: 2%;
@@ -94,6 +102,7 @@ a:hover {
   height: 100%; }
 
 .card-body {
+  padding: 7.25rem;
   background-color: #0D0D0D;
   color: #EFEEEA; }
 
